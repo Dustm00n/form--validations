@@ -21,65 +21,75 @@
     <div class="card-body">
       <div class="row align-items-start">
         <div class="col-5">
-          <form role="form">
+          
             <div class="form-group">
               <label for="inputdefault">Cards #</label>
-              <input class="form-control" id="Card" name="Card"   type="text" 
+              <input class="form-control" id="Card" name="Card" maxlength="16"  type="text" 
               placeholder="xxxxxxxxxxxxxxxx" >
             </div>
-          </form>
+          
         </div>
 
         <div class="col-3">
-          <form role="form">
+          
             <div class="form-group">
               <label for="inputdefault">CVC #</label>
               <input class="form-control" id="CVC" name="CVC" placeholder="000" maxlength="3"  type="text" >
             </div>
         </div>
         <div class="col">
-          <form role="form">
+          
             <div class="form-group">
               <label for="inputdefault">Amount</label>
-              <input class="form-control" id="Amount" name="Amount" placeholder="0.00" type="text" >
+              <input class="form-control" id="Amount" name="Amount" placeholder="0.00" maxlength="" type="text" >
             </div>
         </div>
         <div class="row align-items-start">
           <div class="col-6">
-            <form role="form">
+           
               <div class="form-group">
                 <label for="inputdefault">Firts name</label>
-                <input class="form-control" id="inputdefault" type="text" >
+                <input class="form-control" id="FirtsName" type="text" >
               </div>
           </div>
           <div class="col-6">
-            <form role="form">
+           
               <div class="form-group">
                 <label for="inputdefault">Last Name</label>
-                <input class="form-control" id="inputdefault" type="text" >
+                <input class="form-control" id="LastName" type="text" >
               </div>
           </div>
         </div>
         <div class="row align-items-start">
           <div class="col-6">
-            <form role="form">
+            
               <div class="form-group">
                 <label for="inputdefault">City</label>
-                <input class="form-control" id="inputdefault" type="text" >
+                <input class="form-control" id="City" type="text" >
               </div>
           </div>
           <div class="col">
             <label for="disabledSelect">State</label>
             <select id="disabledSelect" class="form-select">
-              <option>Pick a state</option>
+              <option>Arica</option>
+              <option>Parinacota</option>
+              <option>Tarapaca</option>
+              <option>Antofagasta</option>
+              <option>Atacama</option>
+              <option>Coquimbo</option>
+              <option>Valparaiso</option>
+              <option>Region Metroplitana</option>     
+              <option>Bio-Bio</option>
+              <option>Ñubel</option>
+              <option>Maule</option>        
             </select>
 
           </div>
           <div class="col">
-            <form role="form">
+           
               <div class="form-group">
-                <label for="inputdefault">Last Name</label>
-                <input class="form-control" id="inputdefault" type="text" >
+                <label for="inputdefault">Postal Code</label>
+                <input class="form-control" id="PostalCode" type="number" >
               </div>
           </div>
           <div class="row align-items-start">
@@ -121,8 +131,8 @@
 
                         <div class="d-flex justify-content-end">
 
-                          <button class="btn btn-primary m-2 bg-secondary" type="submit">Cancel</button>
-                          <button class="btn btn-primary m-2" type="submit">Send</button>
+                          <button class="btn btn-primary m-2 bg-secondary" type="reset">Cancel</button>
+                          <input  class="btn btn-primary m-2" type="submit" value ='send'>
                         </div>
                       </div>
                     </div>
